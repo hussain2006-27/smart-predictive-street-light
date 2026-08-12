@@ -147,6 +147,11 @@ The brightness levels and timeout can be modified in the Arduino code.
 ```
 
 ---
+## 🔌 System Circuit / Block Diagram
+
+The following diagram illustrates the main hardware architecture and connections of the smart predictive solar street lighting system.
+
+![Smart Predictive Solar Street Lighting System - Circuit Diagram](circuit_diagram.png)
 
 ## 🧠 Predictive Multi-Pole Concept
 
