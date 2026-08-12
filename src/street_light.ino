@@ -1,28 +1,36 @@
 /*
-  ============================================================
-                LUMENX
-       Predictive Smart Street Lighting
-  ============================================================
-
-  Project:
-  Centralized 3-Pole Smart Street Light
-
-  Controller:
-  ESP32 WROOM-32 / ESP32 DevKit V1 38-pin
-
-  Features:
-  - 3 PIR motion sensors
-  - 3 independently controlled lights
-  - LDR day/night detection
-  - PWM brightness control
-  - Predictive neighboring-pole illumination
-  - Automatic return to dim mode
-  - Smooth brightness transition
-  - Serial monitoring
-
-  ============================================================
-*/
-
+ * ============================================================
+ * Project     : Smart Predictive Solar Street Lighting System
+ * Controller  : ESP32-WROOM-32
+ * Author      : Nishaath Hussain A.
+ * Department  : Electronics and Communication Engineering
+ *
+ * Description :
+ * ESP32-based solar street lighting prototype with adaptive
+ * brightness based on ambient light and motion detection.
+ *
+ * The system uses:
+ *   - LDR  : Ambient light detection
+ *   - PIR  : Motion detection
+ *   - ESP32 : Main controller
+ *   - MOSFET: LED brightness/control
+ *   - LED   : Street-light simulation
+ *
+ * Working:
+ *   Daytime       -> Lights OFF
+ *   Night + No Motion -> Low brightness
+ *   Night + Motion    -> High brightness
+ *   Motion Ends       -> Low brightness after timeout
+ *
+ * Prototype:
+ *   Three-pole lighting setup controlled by a centralized ESP32.
+ *
+ * Future Development:
+ *   Wireless communication between individual poles to create
+ *   a predictive moving wave of illumination.
+ *
+ * ============================================================
+ */
 // ============================================================
 // PIN CONFIGURATION
 // ============================================================
