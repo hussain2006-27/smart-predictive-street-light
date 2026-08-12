@@ -4,6 +4,8 @@
 
 ![Smart Predictive Solar Street Lighting System](i6.jpeg)
 
+---
+
 ## 📌 About the Project
 
 Traditional street lights often remain at high brightness even when there is little or no traffic. This can result in unnecessary energy consumption.
@@ -55,7 +57,7 @@ The prototype uses:
     Low Brightness
 ```
 
-The multi-pole version is designed so that information from one pole can be used to activate the next lighting zone, creating a **predictive wave of light**.
+The multi-pole version is designed so that information from one lighting zone can be used to activate the next lighting zone, creating a **predictive wave of light**.
 
 ---
 
@@ -208,19 +210,31 @@ Future versions could include:
 
 ---
 
-## 📷 Project Images
+## 📷 Project Gallery
 
-Project photographs will be added here.
+### 🔧 Prototype Setup
 
-```text
-images/
-├── prototype.jpg
-├── circuit.jpg
-├── three_pole_setup.jpg
-└── testing.jpg
-```
+![Prototype Setup](i1.jpeg)
 
-After uploading the images, they can be displayed directly in this section.
+### 💻 LDR Sensor Testing
+
+![LDR Sensor Testing](i2.jpeg)
+
+### 📊 Serial Monitor Output
+
+![Serial Monitor Output](i3.jpeg)
+
+### 💡 Night-Time Operation
+
+![Night-Time Operation](i4.jpeg)
+
+### 🌃 Three-Pole Lighting
+
+![Three-Pole Lighting](i5.jpeg)
+
+### 🚦 Complete Prototype
+
+![Complete Prototype](i6.jpeg)
 
 ---
 
@@ -261,22 +275,25 @@ smart-predictive-street-light/
 ├── src/
 │   └── street_light.ino
 │
-├── images/
-│   ├── prototype.jpg
-│   ├── circuit.jpg
-│   └── testing.jpg
-│
-└── docs/
-    └── project_report.pdf
+├── i1.jpeg
+├── i2.jpeg
+├── i3.jpeg
+├── i4.jpeg
+├── i5.jpeg
+└── i6.jpeg
 ```
 
 ---
 
 ## ⭐ Project Status
 
-**Current Status:** Prototype completed and tested.
+**Current Status: Prototype completed and tested.**
 
-The current version demonstrates motion-based adaptive lighting using ESP32, PIR, LDR and LED control. The predictive multi-pole communication concept is planned for further development.
+The current version demonstrates motion-based adaptive lighting using an ESP32, PIR sensor, LDR and LED control.
+
+The prototype successfully demonstrates the transition between low and high brightness based on detected motion.
+
+The **predictive multi-pole communication concept** is planned for further development using wireless communication between individual lighting poles.
 
 ---
 
