@@ -2,7 +2,7 @@
 
 > An ESP32-based solar street lighting prototype with adaptive brightness and a predictive multi-pole lighting concept.
 
-![Smart Predictive Solar Street Lighting System](i6.jpeg) 
+![Smart Predictive Solar Street Lighting System](images/i6.jpeg) 
 
 ---
 
@@ -219,27 +219,27 @@ Future versions could include:
 
 ### 🔧 Prototype Setup
 
-![Prototype Setup](i1.jpeg)
+![Prototype Setup](images/i1.jpeg)
 
 ### 💻 LDR Sensor Testing
 
-![LDR Sensor Testing](i2.jpeg)
+![LDR Sensor Testing](images/i2.jpeg)
 
 ### 📊 Serial Monitor Output
 
-![Serial Monitor Output](i3.jpeg)
+![Serial Monitor Output](images/i3.jpeg)
 
 ### 💡 Night-Time Operation
 
-![Night-Time Operation](i4.jpeg)
+![Night-Time Operation](images/i4.jpeg)
 
 ### 🌃 Three-Pole Lighting
 
-![Three-Pole Lighting](i5.jpeg)
+![Three-Pole Lighting](images/i5.jpeg)
 
 ### 🚦 Complete Prototype
 
-![Complete Prototype](i6.jpeg)
+![Complete Prototype](images/i6.jpeg)
 
 ---
 
