@@ -2,7 +2,7 @@
 
 > An ESP32-based solar street lighting prototype with adaptive brightness and a predictive multi-pole lighting concept.
 
-![Smart Predictive Solar Street Lighting System](i6.jpeg)
+![Smart Predictive Solar Street Lighting System](i6.jpeg) 
 
 ---
 
